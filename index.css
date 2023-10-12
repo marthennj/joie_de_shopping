@@ -1,0 +1,516 @@
+body {
+    margin: 0;
+    font-family: Calibri, sans-serif; /* Font type for regular items */
+}
+/* Center the item within the div */
+.header {
+    height: 100px; /* Adjust the height as needed */
+}
+
+/* Style the item */
+.item {
+    color: #080000;
+    font-size: 18px; /* Adjust the font size as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    background-color: #ff66c4;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 40px; /* Adjust the height as needed */
+
+}
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    grid-template-rows: repeat(1, 1fr); /* Create 1 equal row */
+    gap: 10px; /* Add a gap between the grid items */
+    justify-content: center;
+   }
+   
+   .grid-item {
+    background-color: #fff;
+    padding: 5px; /* Add some padding to the grid items */
+    height:80px;
+    align-items: center; /* Center the text within the grid items */
+    text-align: center;
+    margin-bottom: 60px; /* Add some padding to the grid items */
+   }
+
+/* Set background color */
+.search-bar {
+    cursor: pointer;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 45px;   
+    height: 40px;
+    width: 40px;
+    border: none; /* Add border-radius for rounded corners */
+    background: #f2f2f2 url('search.png') no-repeat right center; /* Add background image */
+    background-size: 40px 40px; /* Adjust the size of the search icon */
+    position: relative;
+}
+.search-bar:hover {
+    transform: scale(1.1); /* Increase the size by 10% */
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+.logo-div{
+    margin: auto;
+    height: 138px;
+    width: 300px;
+    background: #f2f2f2 url('logo.png') no-repeat right center; /* Add background image */
+    background-size: 300px 138px; /* Adjust the size of the search icon */
+
+}
+.cart-logo{
+    cursor: pointer;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 50px;    
+    height: 35px;
+    width: 35px;
+    border: none; /* Add border-radius for rounded corners */
+    background: #f2f2f2 url('cart.png') no-repeat right center; /* Add background image */
+    background-size: 35px 35px; /* Adjust the size of the search icon */
+    position: relative;
+}
+.cart-logo:hover {
+    transform: scale(1.1); /* Increase the size by 10% */
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+ /* Style the menu container */
+ .menu-container {
+    clear: both;
+    background-color: #fff; /* Background color for the menu container */
+    width: 70vw;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 40px; /* Adjust the height as needed */
+    margin: 10px auto; /* Center the container horizontally */
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/* Style the menu list */
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the list items horizontally */
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+/* Style regular menu items */
+.menu li a {
+    font-size: 18px; /* Font size for regular items */
+    padding: 10px;
+    color: #010101; /* Text color for regular items */
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Change background color on hover */
+.menu li a:hover  {
+    background-color: #ff66c4; /* Background color on hover for all items */
+}
+.menu li a:hover, .menu .current {
+    text-decoration: underline;
+}
+
+.specials-display{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center; /* Center the button horizontally */
+    position: relative; /* Add this to position the button */
+}
+.specials-display img{
+    width: 80%; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+}
+
+.specials-display button {
+    background-color: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute; /* Add this to position the button */
+    bottom: 20%; /* Adjust the position as needed */
+    left: 15%; /* Adjust the position as needed */
+    border-radius: 25px;
+}
+.specials-display button:hover {
+    background-color: #ff66c4;
+    border: 2px solid #ff66c4;
+    color: #fff;
+}
+/* Style the container for the picture divs */
+.occassions-div {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/* Style the picture divs */
+.picture-div {
+    width: 25%; /* Each div should take up 25% of the container width */
+    height: 300px; /* Adjust the height as needed */
+    margin: 10px; /* Add some margin around each div */
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+}
+.picture-div img{
+    width:100%;
+    height: 300px;
+}
+.picture-div button{
+    position: absolute;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    top: 85%;
+    left: 28%;
+    }
+.picture-div button:hover{
+    border: 2px solid #ff66c4;
+    background-color: #ff66c4;
+    color: #fff;
+    cursor: pointer;
+}
+.picture-container2 {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/* Style the picture divs */
+.logos-div {
+    width: 25%; /* Each div should take up 25% of the container width */
+    margin: 10px; /* Add some margin around each div */
+    border: 2px solid #000000;
+    cursor: pointer;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.logos-div img{
+    width:100%;
+    height: 100px;
+
+}
+.shop-now {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center; /* Center the button horizontally */
+    position: relative; /* Add this to position the button */
+}
+
+.shop-now img {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+}
+
+.shop-now-text {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-weight: bolder;
+}
+.shop-now-text h2 {
+    color: #ff66c4; /* Add this to make the h2 text pink */
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.shop-now-text p {
+    color: #fff; /* Add this to make the h2 text pink */
+    margin-top: 10px;
+    font-size: 35px;
+}
+.shop-now button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute; /* Add this to position the button */
+    bottom: 20%; /* Adjust the position as needed */
+    left: 15%; /* Adjust the position as needed */
+    border-radius: 25px;
+}
+.shop-now button:hover {
+    border: 2px solid #ff66c4;
+    background-color: #ff66c4;
+}
+.main-new-releases h2{
+    text-align: center;
+    color: #ff66c4;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.new-releases {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;}
+
+.cart-item {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    width: 100%;
+} 
+.cart-item img{
+    width:100%;
+    height: 500px;
+}
+.cart-item-text {
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    transform: translate(-50%, -5%);
+    text-align: left;
+}
+.cart-item h4{
+    margin-bottom: 2px;
+    font-size: 23px;
+}
+.cart-item p{
+    margin-top: 2px;
+    font-size: 23px;
+}
+
+.rating {
+    display: inline-block;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 24px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.rating input:checked ~ label {
+    color: gold; /* Change the star color when checked */
+}
+
+.cart-item button{
+    position: absolute;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    top: 85%;
+    left: 28%;
+}
+.cart-item button:hover{
+    border: 2px solid #ff66c4;
+    background-color: #ff66c4;
+    color: #fff;
+    cursor: pointer;
+}
+
+.prev-btn {
+    margin: 180px 10px;
+    float: left;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000000;
+}
+.prev-btn:hover{
+    background-color: #ff66c4;
+    color: #fff;
+    border: 2px solid #ff66c4;
+}
+.next-btn {
+    margin: 180px 10px;
+    float: right;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000000;
+}
+.next-btn:hover{
+    background-color: #ff66c4;
+    color: #fff;
+    border: 2px solid #ff66c4;
+}
+
+.info-div-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-div-item {
+    width: 25%; /* Each div should take up 25% of the container width */
+    height: 300px; /* Adjust the height as needed */
+    margin: auto ; /* Adjust the margin around each div */
+    padding-left: 40px;
+    text-align: left;
+    font-size: 30px;
+    position: relative;
+    background-color: rgb(61, 61, 61);
+    color: #fff;
+    border: 1px solid #fff;
+}
+.info-div-item h4{
+    font-size: 20px;
+}
+.info-div-item h6{
+    font-size: 14px;
+}
+.info-div-item p, h5{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.footer-container{
+    clear: both;
+    height: 50px;
+    background-color: rgb(61, 61, 61);
+    color: #fff;
+    margin: auto;
+    display: flex; /* Add this line */
+    justify-content: center; /* Add this line */
+    align-items: center; /* Add this line */
+}
+
+.email-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 0px;
+}
+
+#email-input {
+    width: 90%;
+    padding: 15px; /* Set consistent padding values */
+    background-color: transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    line-height: 1;
+}
+#email-input:focus{
+    color: #fff;
+}
+#email-input:focus + label,
+#email-input:not(:placeholder-shown) + label {
+    top: 2px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.email-container label {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    color: #fff;
+    font-size: 16px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+/* Add a margin between placeholder and input text */
+#email-input::placeholder {
+    margin-left: 5px; /* Adjust the value as needed */
+}
+
+/* Style for placeholder text */
+#email-input::-webkit-input-placeholder {
+    font-size: 16px;
+    color: #ccc;
+}
+
+#email-input:-ms-input-placeholder {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.social-icons {
+    list-style: none; /* Remove list style */
+    padding: 0;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left; /* Center-align the icons horizontally */
+}
+
+.social-icons a {
+    color: #000; /* Set the color for the icons */
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 10px;
+ /* Add margin around each icon */
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+.info-div-item a {
+    text-decoration: none; /* Remove the underline */
+    color: #fff; /* Set the link color */
+    font-size: 18px;
+    padding: 2px;
+    transition: color 0.3s; /* Add a smooth transition effect for the color */
+}
+
+.info-div-item a:hover {
+    color: #fff; /* Set the link color when hovered */
+}
+
+@media screen and (max-width: 768px) {
+    .search-container {
+        margin-left: 0;
+    }
+
+    .search-container input[type=text] {
+        width: 100%;
+    }
+
+    .search-container button {
+        position: relative;
+        margin-right: 0;
+        margin-left: 16px;
+    }
+}

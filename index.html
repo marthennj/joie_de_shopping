@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="pagination.js"></script>
+    <title>Your Website Title</title>
+</head>
+<body>
+    <header>
+        <div class="item"> <h4>Free shipping on all UK orders over $24</h4></div>
+    </header>
+
+    <div class="grid-container">
+        <div class="grid-item grid-item1">
+            <div class="search-bar"></div>
+        </div>
+        <div class="grid-item grid-item2">
+            <div class="logo-div"></div>
+        </div>
+        <div class="grid-item grid-item3">
+            <div class = "cart-logo"></div>
+        </div>
+    </div>
+    
+    <nav class="menu-container">
+        <ul class="menu">
+            <li class="special current"><a href="#">Home</a></li>
+            <li><a href="best-sellers.html">Best Sellers</a></li>
+            <li><a href="#">Occasions</a></li>
+            <li><a href="#">Holidays</a></li>
+            <li><a href="#">Recipient</a></li>
+            <li><a href="#">Product Types</a></li>
+            <li><a href="#">Pop Culture</a></li>
+            <li><a href="#">New Releases</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">Sale</a></li>
+            <li><a href="#">5 for $50</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="specials-display">
+            <img src="specials-img.png" alt="Specials Image" />
+            <button>Shop Now</button>
+        </section>
+
+        <section class="occassions-div">
+            <div class="picture-div">
+                <img src="birthday-img.png" alt="Birthday"/>
+                <button class="occassions-btn">Birthday</button>
+            </div>
+            <div class="picture-div">
+                <img src="wedding-img.png" alt="Wedding"/>
+                <button class="occassions-btn">Wedding</button>
+            </div>
+            <div class="picture-div">
+                <img src="just-cuz-img.png" alt="Just Because"/>
+                <button class="occassions-btn">Just Because</button>
+            </div>
+            <div class="picture-div">
+                <img src="thanku-img.png" alt="Thank You"/>
+                <button class="occassions-btn">Thank You</button>
+            </div>
+        </section>
+
+        <section class="picture-container2">
+            <div class="logos-div">
+                <img src="disney.png" alt="Disney Logo"/>
+            </div>
+            <div class="logos-div">                
+                <img src="harrypotter-img.png" alt="Disney Logo"/>
+            </div>
+            <div class="logos-div">
+                <img src="marvel-img.png" alt="Disney Logo"/>
+            </div>
+            <div class="logos-div">
+                <img src="minions-img.png" alt="Disney Logo"/>
+            </div>
+            <div class="logos-div">
+                <img src="starwars-img.png" alt="Disney Logo"/>
+            </div>
+            <div class="logos-div">
+                <img src="friends-img.png" alt="Disney Logo"/>
+            </div>
+        </section>
+
+        <div class="shop-now">
+            <img src="shop-now.png" alt="Shop Now" />
+            <div class="shop-now-text">
+                <h2>Gifting made easy</h2>
+                <p>Add a personalised photo, message </br>
+                or gift card to check-out and we will </br>
+                send it directly to your recipient</p>
+            </div>
+            <button>Shop Now</button>
+        </div>
+
+        <div class="main-new-releases">
+            <h2>Shop New Releases</h2>
+            <button class="prev-btn"><strong><</strong></button>
+            <button class="next-btn"><strong>></strong></button>
+            <div class="new-releases">
+                <div class="cart-item">
+                    <img src="cart-item1.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Lemon Flavoured Icecream</h4>
+                        <p>$5</p>                        
+                    </div>  
+                    <div class="rating">
+                        <input type="radio" name="star" id="star11">
+                        <label for="star11">★</label>
+                        <input type="radio" name="star" id="star12">
+                        <label for="star12">★</label>
+                        <input type="radio" name="star" id="star13">
+                        <label for="star13">★</label>
+                        <input type="radio" name="star" id="star14">
+                        <label for="star14">★</label>
+                        <input type="radio" name="star" id="star15">
+                        <label for="star15">★</label>
+                    </div> 
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item2.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Lemon Flavoured Icecream Cone</h4>
+                        <p>$10</p>
+                    </div>  
+                    <div class="rating">
+                        <input type="radio" name="star2" id="star21">
+                        <label for="star21">★</label>
+                        <input type="radio" name="star2" id="star22">
+                        <label for="star22">★</label>
+                        <input type="radio" name="star2" id="star23">
+                        <label for="star23">★</label>
+                        <input type="radio" name="star2" id="star24">
+                        <label for="star24">★</label>
+                        <input type="radio" name="star2" id="star25">
+                        <label for="star25">★</label>
+                    </div>                    
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item3.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Lemon Flavoured Icecream Scoop</h4>
+                        <p>$15</p>
+                    </div>  
+                    <div class="rating">
+                        <input type="radio" name="star3" id="star31">
+                        <label for="star31">★</label>
+                        <input type="radio" name="star3" id="star32">
+                        <label for="star32">★</label>
+                        <input type="radio" name="star3" id="star33">
+                        <label for="star33">★</label>
+                        <input type="radio" name="star3" id="star34">
+                        <label for="star34">★</label>
+                        <input type="radio" name="star3" id="star35">
+                        <label for="star35">★</label>
+                    </div> 
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item4.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Vanilla Flavoured Icecream Cone</h4>
+                        <p>$25</p>
+                    </div>  
+                    <div class="rating">
+                        <input type="radio" name="star4" id="star41">
+                        <label for="star41">★</label>
+                        <input type="radio" name="star4" id="star42">
+                        <label for="star42">★</label>
+                        <input type="radio" name="star4" id="star43">
+                        <label for="star43">★</label>
+                        <input type="radio" name="star4" id="star44">
+                        <label for="star44">★</label>
+                        <input type="radio" name="star4" id="star45">
+                        <label for="star45">★</label>
+                    </div> 
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item5.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Mulit Flavour Cheesecake</h4>
+                        <p>$25</p>
+                    </div>  
+                    <div class="rating">
+                        <input type="radio" name="star5" id="star51">
+                        <label for="star51">★</label>
+                        <input type="radio" name="star5" id="star52">
+                        <label for="star52">★</label>
+                        <input type="radio" name="star5" id="star53">
+                        <label for="star53">★</label>
+                        <input type="radio" name="star5" id="star54">
+                        <label for="star54">★</label>
+                        <input type="radio" name="star5" id="star55">
+                        <label for="star55">★</label>
+                    </div> 
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item6.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Chocolate Breadsticks</h4>
+                        <p>$15</p>
+                    </div> 
+                    <div class="rating">
+                        <input type="radio" name="star6" id="star61">
+                        <label for="star61">★</label>
+                        <input type="radio" name="star6" id="star62">
+                        <label for="star62">★</label>
+                        <input type="radio" name="star6" id="star63">
+                        <label for="star63">★</label>
+                        <input type="radio" name="star6" id="star64">
+                        <label for="star64">★</label>
+                        <input type="radio" name="star6" id="star65">
+                        <label for="star65">★</label>
+                    </div>  
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item7.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Single Shape Gingerbread Cookies</h4>
+                        <p>$5</p>
+                    </div>  
+                    <div class="rating">
+                        <input type="radio" name="star7" id="star71">
+                        <label for="star71">★</label>
+                        <input type="radio" name="star7" id="star72">
+                        <label for="star72">★</label>
+                        <input type="radio" name="star7" id="star73">
+                        <label for="star73">★</label>
+                        <input type="radio" name="star7" id="star74">
+                        <label for="star74">★</label>
+                        <input type="radio" name="star7" id="star75">
+                        <label for="star75">★</label>
+                    </div> 
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item8.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>White Chocolate Gingerbread Cookies</h4>
+                        <p>$5</p>
+                    </div> 
+                    <div class="rating">
+                        <input type="radio" name="star8" id="star81">
+                        <label for="star81">★</label>
+                        <input type="radio" name="star8" id="star82">
+                        <label for="star82">★</label>
+                        <input type="radio" name="star8" id="star83">
+                        <label for="star83">★</label>
+                        <input type="radio" name="star8" id="star84">
+                        <label for="star84">★</label>
+                        <input type="radio" name="star8" id="star85">
+                        <label for="star85">★</label>
+                    </div>  
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item9.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Multi Shape Gingerbread Cookies</h4>
+                        <p>$4</p>
+                    </div> 
+                    <div class="rating">
+                        <input type="radio" name="star9" id="star91">
+                        <label for="star91">★</label>
+                        <input type="radio" name="star9" id="star92">
+                        <label for="star92">★</label>
+                        <input type="radio" name="star9" id="star93">
+                        <label for="star93">★</label>
+                        <input type="radio" name="star9" id="star94">
+                        <label for="star94">★</label>
+                        <input type="radio" name="star9" id="star95">
+                        <label for="star95">★</label>
+                    </div>  
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item10.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Multi Flavour Icecream Sundae</h4>
+                        <p>$10</p>
+                    </div> 
+                    <div class="rating">
+                        <input type="radio" name="star10" id="star101">
+                        <label for="star101">★</label>
+                        <input type="radio" name="star10" id="star102">
+                        <label for="star102">★</label>
+                        <input type="radio" name="star10" id="star103">
+                        <label for="star103">★</label>
+                        <input type="radio" name="star10" id="star104">
+                        <label for="star104">★</label>
+                        <input type="radio" name="star10" id="star105">
+                        <label for="star105">★</label>
+                    </div>  
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item11.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Strawberry Icecream Sundae</h4>
+                        <p>$15</p>
+                    </div> 
+                    <div class="rating">
+                        <input type="radio" name="star11" id="star111">
+                        <label for="star111">★</label>
+                        <input type="radio" name="star11" id="star112">
+                        <label for="star112">★</label>
+                        <input type="radio" name="star11" id="star113">
+                        <label for="star113">★</label>
+                        <input type="radio" name="star11" id="star114">
+                        <label for="star114">★</label>
+                        <input type="radio" name="star11" id="star115">
+                        <label for="star115">★</label>
+                    </div>   
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item12.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Strawberry & Lime Popsicle</h4>
+                        <p>$25</p>
+                    </div> 
+                    <div class="rating">
+                        <input type="radio" name="star12" id="star121">
+                        <label for="star121">★</label>
+                        <input type="radio" name="star12" id="star122">
+                        <label for="star122">★</label>
+                        <input type="radio" name="star12" id="star123">
+                        <label for="star123">★</label>
+                        <input type="radio" name="star12" id="star124">
+                        <label for="star124">★</label>
+                        <input type="radio" name="star12" id="star125">
+                        <label for="star125">★</label>
+                    </div>  
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item13.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Blueberry Yogurt Popsicle</h4>
+                        <p>$30</p>
+                    </div>
+                    <div class="rating">
+                        <input type="radio" name="star13" id="star131">
+                        <label for="star131">★</label>
+                        <input type="radio" name="star13" id="star132">
+                        <label for="star132">★</label>
+                        <input type="radio" name="star13" id="star133">
+                        <label for="star133">★</label>
+                        <input type="radio" name="star13" id="star134">
+                        <label for="star134">★</label>
+                        <input type="radio" name="star13" id="star135">
+                        <label for="star135">★</label>
+                    </div>   
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item14.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Strawberry Yogurt
+                        Popsicle</h4>
+                        <p>$5</p>
+                    </div>  
+                    <div class="rating">
+                        <input type="radio" name="star14" id="star141">
+                        <label for="star141">★</label>
+                        <input type="radio" name="star14" id="star142">
+                        <label for="star142">★</label>
+                        <input type="radio" name="star14" id="star143">
+                        <label for="star143">★</label>
+                        <input type="radio" name="star14" id="star144">
+                        <label for="star144">★</label>
+                        <input type="radio" name="star14" id="star145">
+                        <label for="star145">★</label>
+                    </div> 
+                    <button>Add to cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="cart-item15.png" alt="Image 1" />
+                    <div class="cart-item-text">
+                        <h4>Mango Yogurt Popsicle</h4>
+                        <p>$15</p>
+                    </div> 
+                    <div class="rating">
+                        <input type="radio" name="star15" id="star151">
+                        <label for="star151">★</label>
+                        <input type="radio" name="star15" id="star152">
+                        <label for="star152">★</label>
+                        <input type="radio" name="star15" id="star153">
+                        <label for="star153">★</label>
+                        <input type="radio" name="star15" id="star154">
+                        <label for="star154">★</label>
+                        <input type="radio" name="star15" id="star155">
+                        <label for="star155">★</label>
+                    </div> 
+                    <button>Add to cart</button> 
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="info-div-container">
+        <div class="info-div-item">
+           <h4>Keep me up to date on news and exclusive offers!</h4>
+           <div class="email-container">
+                <input type="text" id="email-input" placeholder="">
+                <label for="email-input">Email</label>
+            </div>
+            <p>Follow us</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                <a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>            
+        </div>
+        <div class="info-div-item">
+            <h5>About Joie de Shopping</h5>
+            <a href="#">Find a Retail Location</a></br>
+            <a href="#">Joie de Shopping Rewards</a></br>
+            <a href="#">About us</a></br>
+            <a href="#">Blog</a></br>
+            <a href="#">FAQ</a></br>
+            <a href="#">Join the Team</a></br>
+        </div>
+        <div class="info-div-item">
+            <h5 class="email">Get in touch with us</h5>
+            <a href="#">(Mon - Sun 8am - 11pm EST)</a></br>
+            <a href="#">Contact</a></br>
+            <a href="#">Shipping Options</a></br>
+            <a href="#">Privacy Policy</a></br>
+            <a href="#">Terms of Service</a></br>
+            <a href="#">Web Accessibility Statement</a></br>
+        </div>
+        <div class="info-div-item">
+            <h5 class="email">Work with us</h5>
+            <a href="#">Wholesale</a></br>
+            <a href="#">Corporate Customers</a></br>
+            <a href="#">Affiliates</a></br>
+            <a href="#">Donation Request Form</a></br>
+        </div>
+    </div>
+    <footer class="footer-container">
+        <h6>&copy; 2023 Joie de Shopping</h6>
+    </footer>
+</body>
+</html>
